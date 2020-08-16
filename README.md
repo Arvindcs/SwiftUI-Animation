@@ -13,5 +13,14 @@ If you like my work, and would like to see more content you can follow me here -
 [![Instagram](https://i.ibb.co/3m04rjW/insta.png)](https://www.instagram.com/codewithArvind/) [![Linkedin](https://i.ibb.co/ZdvBhbV/linkedin.png)](https://www.linkedin.com/in/arvindcs/)
 
 
+## Animations
+
+#### Add to cart button
+
+![Loading Animation](https://github.com/Arvindcs/SwiftUI-Animation/blob/master/LoadingAnimation.gif)
+
+[**Link for Code**](https://github.com/Arvindcs/SwiftUI-Animation/blob/master/LodingAnimation.zip)
+
+
 ## Credits
 © Arvind Patel | 2020
