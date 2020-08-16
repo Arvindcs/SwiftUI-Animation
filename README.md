@@ -15,11 +15,20 @@ If you like my work, and would like to see more content you can follow me here -
 
 ## Animations
 
-#### Add to cart button
+#### Loading Animation
 
 ![Loading Animation](https://github.com/Arvindcs/SwiftUI-Animation/blob/master/LoadingAnimation.gif)
 
 [**Link for Code**](https://github.com/Arvindcs/SwiftUI-Animation/blob/master/LodingAnimation.zip)
+
+
+#### Character Animation
+
+![Character Animation](https://github.com/Arvindcs/SwiftUI-Animation/blob/master/charAnmiation.gif)
+
+[**Link for Code**](https://github.com/Arvindcs/SwiftUI-Animation/blob/master/CharcterAnimation.zip)
+
+
 
 
 ## Credits
