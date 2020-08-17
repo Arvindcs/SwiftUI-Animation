@@ -1,12 +1,11 @@
 # SwiftUI-Animations
 
-Hello there, I'm Arvind and I'll be posting the animations that you see on my Instagram 
-    [**@codewithArvind**](https://www.instagram.com/codewithArvind/).
-    
-I hope you'll learn something new and use these animations and concepts to achieve great effects and more for your apps.
+### Hi there 👋
 
-If you like my work, and would like to see more content you can follow me here - 
+I build iOS apps. Passionate about open source & developer productivity. You can follow me on Instagram [**@codewithArvind**](https://www.instagram.com/codewithArvind/).
 
+
+![Arvind' github stats](https://github-readme-stats.vercel.app/api?username=arvindcs&count_private=true&show_icons=true)
 
 ## Reach me via 👇🏻
 
