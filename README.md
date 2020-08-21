@@ -14,11 +14,19 @@ I build iOS apps. Passionate about open source & developer productivity. You can
 
 ## Animations
 
-#### Loading Animation
+#### Loading Spinner Animation
 
 ![Loading Animation](https://github.com/Arvindcs/SwiftUI-Animation/blob/master/LoadingAnimation.gif)
 
 [**Link for Code**](https://github.com/Arvindcs/SwiftUI-Animation/blob/master/LodingAnimation.zip)
+
+
+
+#### Loading Check Mark Animation
+
+![Loading Animation](https://github.com/Arvindcs/SwiftUI-Animation/blob/master/lastTrimFinal.gif)
+
+[**Link for Code**](https://github.com/Arvindcs/SwiftUI-Animation/blob/master/LoadingChecKMark.zip)
 
 
 #### Character Animation
