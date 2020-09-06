@@ -16,6 +16,13 @@ I build iOS apps. Passionate about open source & developer productivity. You can
 
 #### Toggle Button Animation
 
+![Simple Animated Menu Icon](https://github.com/Arvindcs/SwiftUI-Animation/blob/master/sideMenuIcons.gif)
+
+[**Link for Code**](https://github.com/Arvindcs/SwiftUI-Animation/blob/master/Menu-Icons.zip)
+
+
+#### Toggle Button Animation
+
 ![Toggle Button Animation](https://github.com/Arvindcs/SwiftUI-Animation/blob/master/toggleAnimation.gif)
 
 [**Link for Code**](https://github.com/Arvindcs/SwiftUI-Animation/blob/master/toggleAnimation.zip)
