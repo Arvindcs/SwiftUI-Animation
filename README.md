@@ -14,7 +14,14 @@ I build iOS apps. Passionate about open source & developer productivity. You can
 
 ## Animations
 
-#### Toggle Button Animation
+#### Animated Loading Dots
+
+![Animated Loading Dots](https://github.com/Arvindcs/SwiftUI-Animation/blob/master/loadingdots.gif)
+
+[**Link for Code**](https://github.com/Arvindcs/SwiftUI-Animation/blob/master/ActivityLoadingDots.zip)
+
+
+#### Animated Menu Icon
 
 ![Simple Animated Menu Icon](https://github.com/Arvindcs/SwiftUI-Animation/blob/master/sideMenuIcons.gif)
 
