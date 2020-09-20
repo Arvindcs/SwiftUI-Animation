@@ -14,47 +14,39 @@ I build iOS apps. Passionate about open source & developer productivity. You can
 
 ## Animations
 
+#### Radar Waves
+
+![Radar Waves](https://github.com/Arvindcs/SwiftUI-Animation/blob/master/AnimatedLoadingWaves/radar-waves.gif)
+
+
 #### Animated Loading Dots
 
-![Animated Loading Dots](https://github.com/Arvindcs/SwiftUI-Animation/blob/master/loadingdots.gif)
-
-[**Link for Code**](https://github.com/Arvindcs/SwiftUI-Animation/blob/master/ActivityLoadingDots.zip)
-
-
-#### Animated Menu Icon
-
-![Simple Animated Menu Icon](https://github.com/Arvindcs/SwiftUI-Animation/blob/master/sideMenuIcons.gif)
-
-[**Link for Code**](https://github.com/Arvindcs/SwiftUI-Animation/blob/master/Menu-Icons.zip)
-
-
-#### Toggle Button Animation
-
-![Toggle Button Animation](https://github.com/Arvindcs/SwiftUI-Animation/blob/master/toggleAnimation.gif)
-
-[**Link for Code**](https://github.com/Arvindcs/SwiftUI-Animation/blob/master/toggleAnimation.zip)
-
-
-#### Loading Spinner Animation
-
-![Loading Animation](https://github.com/Arvindcs/SwiftUI-Animation/blob/master/LoadingAnimation.gif)
-
-[**Link for Code**](https://github.com/Arvindcs/SwiftUI-Animation/blob/master/LodingAnimation.zip)
-
-
-
-#### Loading Check Mark Animation
-
-![Loading Animation](https://github.com/Arvindcs/SwiftUI-Animation/blob/master/lastTrimFinal.gif)
-
-[**Link for Code**](https://github.com/Arvindcs/SwiftUI-Animation/blob/master/LoadingChecKMark.zip)
+![Animated Loading Dots](https://github.com/Arvindcs/SwiftUI-Animation/blob/master/ActivityLoadingDots/loadingdots.gif)
 
 
 #### Character Animation
 
-![Character Animation](https://github.com/Arvindcs/SwiftUI-Animation/blob/master/charAnmiation.gif)
+![Character Animation](https://github.com/Arvindcs/SwiftUI-Animation/blob/master/CharcterAnimation/charAnmiation.gif)
 
-[**Link for Code**](https://github.com/Arvindcs/SwiftUI-Animation/blob/master/CharcterAnimation.zip)
+
+#### Animated Slide Menu Icon
+
+![Simple Animated Menu Icon](https://github.com/Arvindcs/SwiftUI-Animation/blob/master/SlideMenuIcons/sideMenuIcons.gif)
+
+
+#### Bottom Toggle Button Animation
+
+![Bottom Toggle Button Animation](https://github.com/Arvindcs/SwiftUI-Animation/blob/master/BottomToggleMenu/toggleAnimation.gif)
+
+
+#### Instagram Loading Spinner
+
+![Loading Animation](https://github.com/Arvindcs/SwiftUI-Animation/blob/master/InstagramLodingAnimation/InstagramLoadingAnimation.gif)
+
+
+#### Loading Check Mark Animation
+
+![Loading Animation](https://github.com/Arvindcs/SwiftUI-Animation/blob/master/LoadingChecKMark/checkmarkLoading.gif)
 
 
 
