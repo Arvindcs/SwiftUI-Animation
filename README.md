@@ -4,8 +4,9 @@
 
 I build iOS apps. Passionate about open source & developer productivity. You can follow me on Instagram [**@codewithArvind**](https://www.instagram.com/codewithArvind/).
 
+Ask me for help on Instagram or drop us a mail on arvindpatelcs@gmail.com
 
-![Arvind' github stats](https://github-readme-stats.vercel.app/api?username=arvindcs&count_private=true&show_icons=true)
+If you like my work, and would like to see more content you can follow me here -
 
 ## Reach me via 👇🏻
 
