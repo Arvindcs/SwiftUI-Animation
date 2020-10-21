@@ -15,6 +15,11 @@ If you like my work, and would like to see more content you can follow me here -
 
 ## Animations
 
+#### Bar Chart in SwiftUI
+
+![Bar Chart](https://github.com/Arvindcs/SwiftUI-Animation/blob/master/ChartAnimation/chart.gif)
+
+
 #### Radar Waves
 
 ![Radar Waves](https://github.com/Arvindcs/SwiftUI-Animation/blob/master/AnimatedLoadingWaves/radar-waves.gif)
