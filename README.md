@@ -15,44 +15,32 @@ If you like my work, and would like to see more content you can follow me here -
 
 ## Animations
 
+#### Swapping Balls
+<img src="https://github.com/Arvindcs/SwiftUI-Animation/blob/master/SwappingBall/ball-animation.gif" width="420" height="400"/>
+
 #### Bar Chart in SwiftUI
-
-![Bar Chart](https://github.com/Arvindcs/SwiftUI-Animation/blob/master/ChartAnimation/chart.gif)
-
+<img src="https://github.com/Arvindcs/SwiftUI-Animation/blob/master/ChartAnimation/chart.gif" width="420" height="400"/>
 
 #### Radar Waves
-
-![Radar Waves](https://github.com/Arvindcs/SwiftUI-Animation/blob/master/AnimatedLoadingWaves/radar-waves.gif)
-
+<img src="https://github.com/Arvindcs/SwiftUI-Animation/blob/master/AnimatedLoadingWaves/radar-waves.gif" width="420" height="400"/>
 
 #### Animated Loading Dots
-
-![Animated Loading Dots](https://github.com/Arvindcs/SwiftUI-Animation/blob/master/ActivityLoadingDots/loadingdots.gif)
-
+<img src="https://github.com/Arvindcs/SwiftUI-Animation/blob/master/ActivityLoadingDots/loadingdots.gif" width="420" height="400"/>
 
 #### Character Animation
-
-![Character Animation](https://github.com/Arvindcs/SwiftUI-Animation/blob/master/CharcterAnimation/charAnmiation.gif)
-
+<img src="https://github.com/Arvindcs/SwiftUI-Animation/blob/master/CharcterAnimation/charAnmiation.gif" width="420" height="400"/>
 
 #### Animated Slide Menu Icon
-
-![Simple Animated Menu Icon](https://github.com/Arvindcs/SwiftUI-Animation/blob/master/SlideMenuIcons/sideMenuIcons.gif)
-
+<img src="https://github.com/Arvindcs/SwiftUI-Animation/blob/master/SlideMenuIcons/sideMenuIcons.gif" width="420" height="400"/>
 
 #### Bottom Toggle Button Animation
-
-![Bottom Toggle Button Animation](https://github.com/Arvindcs/SwiftUI-Animation/blob/master/BottomToggleMenu/toggleAnimation.gif)
-
+<img src="https://github.com/Arvindcs/SwiftUI-Animation/blob/master/BottomToggleMenu/toggleAnimation.gif" width="420" height="400"/>
 
 #### Instagram Loading Spinner
-
-![Loading Animation](https://github.com/Arvindcs/SwiftUI-Animation/blob/master/InstagramLodingAnimation/InstagramLoadingAnimation.gif)
-
+<img src="https://github.com/Arvindcs/SwiftUI-Animation/blob/master/InstagramLodingAnimation/InstagramLoadingAnimation.gif" width="420" height="400"/>
 
 #### Loading Check Mark Animation
-
-![Loading Animation](https://github.com/Arvindcs/SwiftUI-Animation/blob/master/LoadingChecKMark/checkmarkLoading.gif)
+<img src="https://github.com/Arvindcs/SwiftUI-Animation/blob/master/LoadingChecKMark/checkmarkLoading.gif" width="420" height="400"/>
 
 
 
