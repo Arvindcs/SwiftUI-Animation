@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A4805FE22509D25A001A2377 /* SimpleActivityLoading.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleActivityLoading.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4805FE22509D25A001A2377 /* BackToBackAnimatedDot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BackToBackAnimatedDot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4805FE52509D25A001A2377 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4805FE72509D25A001A2377 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A4805FE92509D25A001A2377 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		A4805FD92509D25A001A2377 = {
 			isa = PBXGroup;
 			children = (
-				A4805FE42509D25A001A2377 /* SimpleActivityLoading */,
+				A4805FE42509D25A001A2377 /* BackToBackAnimatedDot */,
 				A4805FE32509D25A001A2377 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,12 +50,12 @@
 		A4805FE32509D25A001A2377 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A4805FE22509D25A001A2377 /* SimpleActivityLoading.app */,
+				A4805FE22509D25A001A2377 /* BackToBackAnimatedDot.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A4805FE42509D25A001A2377 /* SimpleActivityLoading */ = {
+		A4805FE42509D25A001A2377 /* BackToBackAnimatedDot */ = {
 			isa = PBXGroup;
 			children = (
 				A4805FE52509D25A001A2377 /* AppDelegate.swift */,
@@ -67,7 +67,7 @@
 				A4805FF32509D25E001A2377 /* Info.plist */,
 				A4805FED2509D25E001A2377 /* Preview Content */,
 			);
-			path = SimpleActivityLoading;
+			path = BackToBackAnimatedDot;
 			sourceTree = "<group>";
 		};
 		A4805FED2509D25E001A2377 /* Preview Content */ = {
@@ -81,9 +81,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A4805FE12509D25A001A2377 /* SimpleActivityLoading */ = {
+		A4805FE12509D25A001A2377 /* BackToBackAnimatedDot */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A4805FF62509D25E001A2377 /* Build configuration list for PBXNativeTarget "SimpleActivityLoading" */;
+			buildConfigurationList = A4805FF62509D25E001A2377 /* Build configuration list for PBXNativeTarget "BackToBackAnimatedDot" */;
 			buildPhases = (
 				A4805FDE2509D25A001A2377 /* Sources */,
 				A4805FDF2509D25A001A2377 /* Frameworks */,
@@ -93,9 +93,9 @@
 			);
 			dependencies = (
 			);
-			name = SimpleActivityLoading;
+			name = BackToBackAnimatedDot;
 			productName = SimpleActivityLoading;
-			productReference = A4805FE22509D25A001A2377 /* SimpleActivityLoading.app */;
+			productReference = A4805FE22509D25A001A2377 /* BackToBackAnimatedDot.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -113,7 +113,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A4805FDD2509D25A001A2377 /* Build configuration list for PBXProject "SimpleActivityLoading" */;
+			buildConfigurationList = A4805FDD2509D25A001A2377 /* Build configuration list for PBXProject "BackToBackAnimatedDot" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -126,7 +126,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A4805FE12509D25A001A2377 /* SimpleActivityLoading */,
+				A4805FE12509D25A001A2377 /* BackToBackAnimatedDot */,
 			);
 		};
 /* End PBXProject section */
@@ -289,10 +289,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"SimpleActivityLoading/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"BackToBackAnimatedDot/Preview Content\"";
 				DEVELOPMENT_TEAM = 493S77954X;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = SimpleActivityLoading/Info.plist;
+				INFOPLIST_FILE = BackToBackAnimatedDot/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,10 +309,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"SimpleActivityLoading/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"BackToBackAnimatedDot/Preview Content\"";
 				DEVELOPMENT_TEAM = 493S77954X;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = SimpleActivityLoading/Info.plist;
+				INFOPLIST_FILE = BackToBackAnimatedDot/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -327,7 +327,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A4805FDD2509D25A001A2377 /* Build configuration list for PBXProject "SimpleActivityLoading" */ = {
+		A4805FDD2509D25A001A2377 /* Build configuration list for PBXProject "BackToBackAnimatedDot" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A4805FF42509D25E001A2377 /* Debug */,
@@ -336,7 +336,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A4805FF62509D25E001A2377 /* Build configuration list for PBXNativeTarget "SimpleActivityLoading" */ = {
+		A4805FF62509D25E001A2377 /* Build configuration list for PBXNativeTarget "BackToBackAnimatedDot" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A4805FF72509D25E001A2377 /* Debug */,
