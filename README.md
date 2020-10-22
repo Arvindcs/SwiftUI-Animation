@@ -21,6 +21,9 @@ If you like my work, and would like to see more content you can follow me here -
 #### Bar Chart in SwiftUI
 <img src="https://github.com/Arvindcs/SwiftUI-Animation/blob/master/ChartAnimation/chartAnimation.gif" width="420" height="400"/>
 
+#### AnimatedDots
+<img src="https://github.com/Arvindcs/SwiftUI-Animation/blob/master/AnimatedDots/dot-animation.gif" width="420" height="400"/>
+
 #### Radar Waves
 <img src="https://github.com/Arvindcs/SwiftUI-Animation/blob/master/AnimatedLoadingWaves/radar-waves.gif" width="420" height="400"/>
 
