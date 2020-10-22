@@ -48,6 +48,9 @@ If you like my work, and would like to see more content you can follow me here -
 #### Custom Toggle Button
 <img src="https://github.com/Arvindcs/SwiftUI-Animation/blob/master/Custom-Toggle/toggle.gif" width="420" height="400"/>
 
+#### SwiftUI DropDown
+<img src="https://github.com/Arvindcs/SwiftUI-Animation/blob/master/SwiftUI-DropDown/dropdown.gif" width="420" height="400"/>
+
 
 ## Credits
 © Arvind Patel | 2020
