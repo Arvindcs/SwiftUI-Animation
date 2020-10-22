@@ -45,10 +45,6 @@ If you like my work, and would like to see more content you can follow me here -
 #### Instagram Loading Spinner
 <img src="https://github.com/Arvindcs/SwiftUI-Animation/blob/master/InstagramLodingAnimation/InstagramLoadingAnimation.gif" width="420" height="400"/>
 
-#### IAnimated Dots
-<img src="https://github.com/Arvindcs/SwiftUI-Animation/blob/master/AnimatedDots/dot-animation.gif" width="420" height="400"/>
-
-
 
 ## Credits
 © Arvind Patel | 2020
