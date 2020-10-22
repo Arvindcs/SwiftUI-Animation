@@ -30,9 +30,6 @@ If you like my work, and would like to see more content you can follow me here -
 #### Radar Waves
 <img src="https://github.com/Arvindcs/SwiftUI-Animation/blob/master/AnimatedLoadingWaves/radar-waves.gif" width="420" height="400"/>
 
-#### Animated Loading Dots
-<img src="https://github.com/Arvindcs/SwiftUI-Animation/blob/master/ActivityLoadingDots/loadingdots.gif" width="420" height="400"/>
-
 #### Character Animation
 <img src="https://github.com/Arvindcs/SwiftUI-Animation/blob/master/CharcterAnimation/charAnmiation.gif" width="420" height="400"/>
 
