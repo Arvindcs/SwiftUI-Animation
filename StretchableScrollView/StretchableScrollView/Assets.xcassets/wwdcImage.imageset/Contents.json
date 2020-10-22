@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "[static.toiimg.com][898]76404420.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "[static.toiimg.com][898]76404420-2.jpg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "[static.toiimg.com][898]76404420-1.jpg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
