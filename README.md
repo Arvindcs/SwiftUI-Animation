@@ -36,9 +36,6 @@ If you like my work, and would like to see more content you can follow me here -
 #### Animated Slide Menu Icon
 <img src="https://github.com/Arvindcs/SwiftUI-Animation/blob/master/SlideMenuIcons/sideMenuIcons.gif" width="420" height="400"/>
 
-#### Bottom Toggle Button Animation
-<img src="https://github.com/Arvindcs/SwiftUI-Animation/blob/master/BottomToggleMenu/toggleAnimation.gif" width="420" height="400"/>
-
 #### Instagram Loading Spinner
 <img src="https://github.com/Arvindcs/SwiftUI-Animation/blob/master/InstagramLodingAnimation/InstagramLoadingAnimation.gif" width="420" height="400"/>
 
