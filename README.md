@@ -15,6 +15,9 @@ If you like my work, and would like to see more content you can follow me here -
 
 ## Animations
 
+#### Circle Loading
+<img src="https://github.com/Arvindcs/SwiftUI-Animation/blob/master/CircleLoadingAnimation/CircleLoading.gif" width="420" height="400"/>
+
 #### Swapping Balls
 <img src="https://github.com/Arvindcs/SwiftUI-Animation/blob/master/SwappingBall/ball-animation.gif" width="420" height="400"/>
 
