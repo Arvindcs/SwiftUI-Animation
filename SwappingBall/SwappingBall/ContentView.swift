@@ -11,35 +11,39 @@ struct ContentView: View {
     @State private var isBallSwaping = false
     
     var body: some View {
-        Color.getBGColor()
+       // Color.getBGColor()
         ZStack {
-            ZStack {
-                ForEach(0..<8, id: \.self) { i in
-                    Circle()
-                        .fill(Color.getFirstBallColor())
-                        .frame(width: 30, height: 30)
-                        .offset(x: CGFloat(i * 40) ,y: isBallSwaping ? 60 : 0)
-                    Spacer()
-                    Circle()
-                        .fill(Color.getSecondBallColor())
-                        .frame(width: 30, height: 30)
-                        .offset(x: CGFloat(i * 40),y: isBallSwaping ? -60 : 0)
-                }
-                .frame(width: 50)
-                .animation(Animation.linear(duration: 1).repeatForever())
-                .onTapGesture {
-                    isBallSwaping.toggle()
-                }
-            }.frame(width: 320, height: 60, alignment: .leading)
-            
-            VStack {
-                Image("profile")
-                    .resizable()
-                    .scaledToFit()
-                    .frame(width: 40, height: 40, alignment: .center)
-                Text("codewithArvind").foregroundColor(.black).font(.headline)
-            }.offset(y: 400)
-        }.offset( y: -400)
+            HStack {
+                Circle()
+                    .fill(Color.getFirstBallColor())
+                    .frame(width: 30, height: 30)
+                Circle()
+                    .fill(Color.getFirstBallColor())
+                    .frame(width: 30, height: 30)
+                   
+            } .offset(x: CGFloat(40),y: isBallSwaping ? -40 : 0)
+            HStack {
+                Circle()
+                    .fill(Color.getSecondBallColor())
+                    .frame(width: 30, height: 30)
+                Circle()
+                    .fill(Color.getSecondBallColor())
+                    .frame(width: 30, height: 30)
+                    
+         }.offset(x: CGFloat(40),y: isBallSwaping ? 40 : 0)
+        }.frame(width: 320, height: 60, alignment: .center)
+        .offset(x: -35)
+        .animation(Animation.linear(duration: 1).repeatForever())
+        .onAppear() {
+            isBallSwaping.toggle()
+        }
+        VStack {
+            Image("profile")
+                .resizable()
+                .scaledToFit()
+                .frame(width: 40, height: 40, alignment: .center)
+            Text("codewithArvind").foregroundColor(.black).font(.headline)
+        }.offset(y: 300)
     }
 }
 

@@ -39,10 +39,13 @@ struct ContentView: View {
             Circle()
                 .trim(from: 0 , to: 1 )
                 .stroke(Color.getCircleColor(), style:
-                            StrokeStyle(lineWidth: 5, lineCap: .round, dash: [30, 30], dashPhase: 40))
+                            StrokeStyle(lineWidth: 5, lineCap: .round,
+                            dash: [30, 30], dashPhase: 40))
+                
                 .frame(width: rotationLine, height: rotationLine)
                 .rotationEffect(.degrees(rotationDegree))
-                .animation(Animation.easeInOut(duration: 2).repeatForever(autoreverses: false))
+                .animation(Animation.easeInOut(duration: 2)
+                .repeatForever(autoreverses: false))
         }.onAppear() {
             rotationDegree = -360
             isShowAnimation.toggle()
