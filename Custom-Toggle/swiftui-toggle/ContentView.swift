@@ -15,7 +15,6 @@ struct ContentView: View {
     var body: some View {
         
         VStack {
-            
             Toggle(isOn: $isOn, label: label)
                 .toggleStyle(SunMoonToggleStyle())
             if isOn {
@@ -58,7 +57,8 @@ public struct SunMoonToggleStyle: ToggleStyle {
             .clipShape(Capsule())
             .offset(x: 2)
             .animation(Animation.spring(response: 0.3, dampingFraction: 0.7, blendDuration: 0))
-        }   .onTapGesture {
+        }
+        .onTapGesture {
             configuration.isOn.toggle()
         }
     }
@@ -68,15 +68,15 @@ public struct SunMoonToggleStyle: ToggleStyle {
             gradient: isOn ? darkGradient : lightGradient,
             startPoint: .top,
             endPoint: .bottom
-        ).background(isOn ? Color.black : Color.black)
+        ).background(isOn ? Color.black : Color.yellow)
     }
     
     private var lightGradient: Gradient {
-        Gradient(colors: [Color.blue.opacity(0.3), Color.blue.opacity(0.5), Color.blue.opacity(0.3)])
+        Gradient(colors: [Color.yellow.opacity(0.3)])
     }
     
     private var darkGradient: Gradient {
-        Gradient(colors: [Color.blue.opacity(0.3), Color.blue.opacity(0.5), Color.blue.opacity(0.3)])
+        Gradient(colors: [Color.black.opacity(0.3)])
     }
 }
 
@@ -96,43 +96,14 @@ public struct SunMoonToggleStyle: ToggleStyle {
                 clockwise: true
             )
             path.addArc(
-                center: CGPoint(x: center.x - side * 0.35, y: center.y - side * 0.25),
+                center: CGPoint(x: center.x - side * 0.40, y: center.y - side * 0.30),
                 radius: side * 0.4,
-                startAngle: .degrees(321.5),
-                endAngle: .degrees(109.5),
+                startAngle: .degrees(320),
+                endAngle: .degrees(108),
                 clockwise: false
             )
             path.closeSubpath()
         }
         return path
-    }
-}
-
-extension Color {
-    init(hex: String) {
-        
-        let hex = hex.trimmingCharacters(in: CharacterSet.alphanumerics.inverted)
-        var int: UInt64 = 0
-        Scanner(string: hex).scanHexInt64(&int)
-        
-        let a, r, g, b: UInt64
-        
-        switch hex.count {
-        case 3:
-            (a, r, g, b) = (255, (int >> 8) * 17, (int >> 4 & 0xF) * 17, (int & 0xF) * 17)
-        case 6:
-            (a, r, g, b) = (255, int >> 16, int >> 8 & 0xFF, int & 0xFF)
-        case 8:
-            (a, r, g, b) = (int >> 24, int >> 16 & 0xFF, int >> 8 & 0xFF, int & 0xFF)
-        default:
-            (a, r, g, b) = (1, 1, 1, 0)
-        }
-        self.init(
-            .sRGB,
-            red: Double(r) / 255,
-            green: Double(g) / 255,
-            blue:  Double(b) / 255,
-            opacity: Double(a) / 255
-        )
     }
 }
