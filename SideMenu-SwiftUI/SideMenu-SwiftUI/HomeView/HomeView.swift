@@ -9,8 +9,11 @@ import SwiftUI
 import UIKit
 
 struct HomeView : View {
-    @State var buttonIndex = 0
-    @State var isToggle = false
+    @State private var buttonIndex = 0
+    @State private var isToggle = false
+    @State private var isRotateTop = false
+    @State private var isCenterLineHidden = false
+    @State private var isRotateBottom = false
     
     var body: some View {
         
@@ -97,15 +100,39 @@ struct HomeView : View {
             
             VStack(spacing: 0) {
                 HStack(spacing: 15) {
-                    Button(action: {
-                        withAnimation { self.isToggle.toggle() }
-                    }) {
-                        Image(systemName: self.isToggle ? "xmark" : "line.horizontal.3")
-                            .resizable()
-                            .frame(width: self.isToggle ? 18 : 22, height: 18)
-                            .foregroundColor(Color.black.opacity(0.4))
+                   
+                    VStack(alignment: .center, spacing: 5) {
+                                    
+                        Rectangle()
+                            .frame(width: 35, height: 5)
+                            .cornerRadius(4)
+                            .rotationEffect(
+                            .degrees(isRotateTop ? 35 : 0), anchor: .leading)
+                            .foregroundColor(Color.gray)
+                        
+                        Rectangle()
+                            .frame(width: 35, height: 5)
+                            .cornerRadius(4)
+                            .scaleEffect(isCenterLineHidden ? 0 : 1)
+                            .opacity(isCenterLineHidden ? 0 : 1)
+                            .foregroundColor(Color.gray)
+                        
+                        Rectangle()
+                            .frame(width: 35, height: 5)
+                            .cornerRadius(4)
+                            .rotationEffect(
+                            .degrees(isRotateTop ? -35 : 0), anchor:.leading)
+                            .foregroundColor(Color.gray)
+                        
+                    }.animation(Animation
+                        .interpolatingSpring(stiffness: 100, damping: 10))
+                        .onTapGesture {
+                        self.isRotateTop.toggle()
+                        self.isRotateBottom.toggle()
+                        self.isCenterLineHidden.toggle()
+                        self.isToggle.toggle()
                     }
-                    
+                     
                     if (self.buttonIndex == 0) {
                         NavigationLabel(title: "Home")
                     }
@@ -152,6 +179,7 @@ struct HomeView : View {
             .scaleEffect(isToggle ? 0.9 : 1)
             .offset(x: isToggle ? UIScreen.main.bounds.width / 2 : 0, y: self.isToggle ? 15 : 0)
             .rotationEffect(.init(degrees: self.isToggle ? -5 : 0))
+            .animation(Animation.default)
         }
         .background(Color.GetSideMenuBGColor().edgesIgnoringSafeArea(.all))
         .edgesIgnoringSafeArea(.all)

@@ -16,30 +16,26 @@ struct ContentView: View {
     
     var body: some View {
         
-        VStack(alignment: .center, spacing: 25) {
-            
-            Text("codewithArvind")
-                .font(.title)
-                .offset(y: -250)
+        VStack(alignment: .center, spacing: 7) {
             
             Rectangle()
-                .frame(width: 95, height: 10)
+                .frame(width: 40, height: 5)
                 .cornerRadius(4)
                 .rotationEffect(
-                .degrees(isRotateTop ? 48 : 0), anchor:
+                .degrees(isRotateTop ? 35 : 0), anchor:
                 .leading)
             
             Rectangle()
-                .frame(width: 95, height: 10)
+                .frame(width: 40, height: 5)
                 .cornerRadius(4)
                 .scaleEffect(isCenterLineHidden ? 0 : 1)
                 .opacity(isCenterLineHidden ? 0 : 1)
             
             Rectangle()
-                .frame(width: 95, height: 10)
+                .frame(width: 40, height: 5)
                 .cornerRadius(4)
                 .rotationEffect(
-                .degrees(isRotateTop ? -48 : 0), anchor:
+                .degrees(isRotateTop ? -35 : 0), anchor:
                 .leading)
             
         }.animation(Animation
