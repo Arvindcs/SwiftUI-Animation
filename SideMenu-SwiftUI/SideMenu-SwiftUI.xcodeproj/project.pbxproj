@@ -56,6 +56,7 @@
 		A4195FCE256B8A4200557885 /* MenuItems */ = {
 			isa = PBXGroup;
 			children = (
+				A4EC253F256B679F0026D4AE /* HomeView.swift */,
 				A4195FCF256B8A6400557885 /* Orders.swift */,
 				A4195FD3256B8AAC00557885 /* Wishlist.swift */,
 				A4195FD6256B8AD900557885 /* Abouts.swift */,
@@ -87,7 +88,6 @@
 				A4EC2559256B725F0026D4AE /* ContentView */,
 				A4EC2558256B724D0026D4AE /* AppDelegate */,
 				A4EC2555256B721A0026D4AE /* RootView */,
-				A4EC2557256B72410026D4AE /* HomeView */,
 				A4EC2554256B72120026D4AE /* Color */,
 				A4EC254F256B71EA0026D4AE /* Product */,
 				A4EC255B256B72780026D4AE /* StoryBoard */,
@@ -128,14 +128,6 @@
 				A4EC2543256B68520026D4AE /* RootView.swift */,
 			);
 			path = RootView;
-			sourceTree = "<group>";
-		};
-		A4EC2557256B72410026D4AE /* HomeView */ = {
-			isa = PBXGroup;
-			children = (
-				A4EC253F256B679F0026D4AE /* HomeView.swift */,
-			);
-			path = HomeView;
 			sourceTree = "<group>";
 		};
 		A4EC2558256B724D0026D4AE /* AppDelegate */ = {

@@ -40,20 +40,9 @@ struct RootView: View {
                         .cornerRadius(15)
                 }.padding(.trailing)
             }
-            
-            ScrollView(.vertical, showsIndicators: false) {
-                VStack(spacing: 12) {
-                    Product(imageName: "nike-shoes-two",
-                            productName: "Nike Zoom Rival Fly 2",
-                            productDiscription: "Price - ₹15,595")
-                    Product(imageName: "nike-shoes-three",
-                            productName: "Nike Zoom Rival Fly 3",
-                            productDiscription: "Price - ₹15,595")
-                    Product(imageName: "nike-shoes-four",
-                            productName: "Nike Zoom Rival Fly 4",
-                            productDiscription: "Price - ₹15,595")
-                }
-                .padding()
+
+            List(getProductList()) { productObj in
+                ProductRow(product: productObj)
             }
         }
     }
