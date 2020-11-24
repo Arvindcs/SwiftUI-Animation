@@ -35,59 +35,50 @@ struct HomeView : View {
                         .font(.title)
                         .foregroundColor(.white)
                     
-                    Divider()
-                        .frame(width: 150, height: 1)
-                        .background(Color.white)
-                        .padding(.vertical, 30)
+                    ViewDivider()
                     
                     //MARK:- Home Button
-                    Button(action: {
+                    
+                    MenuButton(imageName: "home-icon", menuName: "Home",
+                               buttonIndex: self.buttonIndex, buttonPosition: 0) {
                         self.buttonIndex = 0
                         withAnimation{
                             self.isToggle.toggle()
                         }
-                    }) {
-                        MenuButton(imageName: "home-icon", menuName: "Home", buttonIndex: self.buttonIndex, buttonPosition: 0)
                     }
                     
                     //MARK:- My Orders Button
-                    Button(action: {
+                    MenuButton(imageName: "order-icon", menuName: "Orders",
+                               buttonIndex: self.buttonIndex, buttonPosition: 1) {
                         self.buttonIndex = 1
                         withAnimation{
                             self.isToggle.toggle()
                         }
-                    }) {
-                        MenuButton(imageName: "order-icon", menuName: "Orders", buttonIndex: self.buttonIndex, buttonPosition: 1)
                     }
                     
                     //MARK:- My Wishlist
-                    Button(action: {
+                    MenuButton(imageName: "wishlist", menuName: "Wishlist",
+                               buttonIndex: self.buttonIndex, buttonPosition: 2) {
                         self.buttonIndex = 2
                         withAnimation{
                             self.isToggle.toggle()
                         }
-                    }) {
-                        MenuButton(imageName: "wishlist", menuName: "Wishlist", buttonIndex: self.buttonIndex, buttonPosition: 2)
                     }
                     
                     //MARK:- Contact us
-                    Button(action: {
+                    
+                    MenuButton(imageName: "contact-icon", menuName: "About",
+                               buttonIndex: self.buttonIndex, buttonPosition: 3) {
                         self.buttonIndex = 3
                         withAnimation{
                             self.isToggle.toggle()
                         }
-                    }) {
-                        MenuButton(imageName: "contact-icon", menuName: "About", buttonIndex: self.buttonIndex, buttonPosition: 3)
                     }
                     
-                    Divider()
-                        .frame(width: 150, height: 1)
-                        .background(Color.white)
-                        .padding(.vertical,30)
+                    ViewDivider()
                     
-                    Button(action: {}) {
-                        MenuButton(imageName: "logout", menuName: "Logout", buttonIndex: self.buttonIndex, buttonPosition: 4)
-                    }
+                    MenuButton(imageName: "logout", menuName: "Logout",
+                               buttonIndex: self.buttonIndex, buttonPosition: 4) {}
                 }
                 .padding(.top, 22)
                 .padding(.horizontal, 20)
@@ -100,14 +91,14 @@ struct HomeView : View {
             
             VStack(spacing: 0) {
                 HStack(spacing: 15) {
-                   
+                    
                     VStack(alignment: .center, spacing: 5) {
-                                    
+                        
                         Rectangle()
                             .frame(width: 35, height: 5)
                             .cornerRadius(4)
                             .rotationEffect(
-                            .degrees(isRotateTop ? 35 : 0), anchor: .leading)
+                                .degrees(isRotateTop ? 35 : 0), anchor: .leading)
                             .foregroundColor(Color.gray)
                         
                         Rectangle()
@@ -121,67 +112,35 @@ struct HomeView : View {
                             .frame(width: 35, height: 5)
                             .cornerRadius(4)
                             .rotationEffect(
-                            .degrees(isRotateTop ? -35 : 0), anchor:.leading)
+                                .degrees(isRotateTop ? -35 : 0), anchor:.leading)
                             .foregroundColor(Color.gray)
                         
-                    }.animation(Animation
-                        .interpolatingSpring(stiffness: 100, damping: 10))
-                        .onTapGesture {
-                        self.isRotateTop.toggle()
-                        self.isRotateBottom.toggle()
-                        self.isCenterLineHidden.toggle()
-                        self.isToggle.toggle()
+                    }.animation(Animation.interpolatingSpring(stiffness: 100, damping: 10))
+                    .onTapGesture {
+                        isRotateTop.toggle()
+                        isRotateBottom.toggle()
+                        isCenterLineHidden.toggle()
+                        isToggle.toggle()
                     }
-                     
-                    if (self.buttonIndex == 0) {
-                        NavigationLabel(title: "Home")
-                    }
-                    
-                    if (self.buttonIndex == 1) {
-                        NavigationLabel(title: "Orders")
-                    }
-                    
-                    if (self.buttonIndex == 2) {
-                        NavigationLabel(title: "WishList")
-                    }
-                    
-                    if (self.buttonIndex == 3) {
-                        NavigationLabel(title: "About")
-                    }
-                    
+                    // Set Title
+                    NavigationLabel(buttonIndex: buttonIndex)
                     Spacer(minLength: 0)
                 }
-                .padding(.top,UIApplication.shared.windows.first?.safeAreaInsets.top)
+                .padding(.top, 28)
                 .padding()
                 
-                GeometryReader {_ in
-                    VStack{
-                        if buttonIndex == 0 {
-                            RootView()
-                        }
-                        
-                        if buttonIndex == 1 {
-                            Orders()
-                        }
-                        
-                        if buttonIndex == 2 {
-                            Wishlist()
-                        }
-                        
-                        if buttonIndex == 3 {
-                            Abouts()
-                        }
-                    }
-                }
+                // Menu Button Action
+                didShowSelectedView(buttonIndex: buttonIndex)
             }
             .background(buttonIndex == 0 ? Color.getHomeColor() : (buttonIndex == 1 ? Color.getColor1() : (buttonIndex == 2 ? Color.getColor2() : Color.getColor3())))      
-            .cornerRadius(isToggle ? 30 : 0)
-            .scaleEffect(isToggle ? 0.9 : 1)
-            .offset(x: isToggle ? UIScreen.main.bounds.width / 2 : 0, y: self.isToggle ? 15 : 0)
-            .rotationEffect(.init(degrees: self.isToggle ? -5 : 0))
+            .cornerRadius(isToggle ? 25 : 0)
+            .scaleEffect(isToggle ? 0.8 : 1)
+            .offset(x: isToggle ? UIScreen.main.bounds.width / 2 : 0, y: self.isToggle ? 16 : 0)
+            .rotationEffect(.init(degrees: self.isToggle ? -7 : 0))
             .animation(Animation.default)
         }
-        .background(Color.GetSideMenuBGColor().edgesIgnoringSafeArea(.all))
+        .background(Color.GetSideMenuBGColor()
+        .edgesIgnoringSafeArea(.all))
         .edgesIgnoringSafeArea(.all)
     }
 }
