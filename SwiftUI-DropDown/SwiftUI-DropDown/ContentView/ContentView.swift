@@ -10,7 +10,7 @@ import SwiftUI
 
 struct ContentView : View {
     @State var isExpandDropDown = false
-    @State var selectedOption = "Option 1"
+    @State var selectedOption = "Option 1" // By defult selected value
     
     var body : some  View {
         VStack(alignment: .center, spacing: 25, content:{
@@ -26,7 +26,7 @@ struct ContentView : View {
                 isExpandDropDown.toggle()
             }
             
-            if isExpandDropDown {
+            if isExpandDropDown { // TODO:- //getOptionList is your model array 
                 List(getOptionList()) { option in
                     OptionButton(key: option.id, value: option.optionName, option: option) { (identifier, selectedName)  in
                         selectedOption = selectedName
