@@ -9,39 +9,33 @@
 import SwiftUI
 
 struct ContentView : View {
-    @State var expand = false
+    @State var isExpandDropDown = false
+    @State var selectedOption = "Option 1"
     
     var body : some  View {
-        VStack(alignment: .leading,spacing: 25, content:  {
+        VStack(alignment: .center, spacing: 25, content:{
             HStack {
-                Text("DropDown Menu").fontWeight(.heavy)
+                Text(selectedOption).fontWeight(.heavy)
                     .foregroundColor(.white)
                 
-                Image(systemName: expand ? "chevron.up" : "chevron.down")
+                Image(systemName: isExpandDropDown ? "chevron.up" : "chevron.down")
                     .resizable().frame(width: 13, height: 6)
                     .foregroundColor(.white)
                 
             }.onTapGesture {
-                self.expand.toggle()
+                isExpandDropDown.toggle()
             }
-            if expand {
-                Button(action: {
-                    self.expand.toggle()
-                }) {
-                    Text("Option 1")
-                }.foregroundColor(.white)
-                Button(action: {
-                    self.expand.toggle()
-                }) {
-                    Text("Option 2")
-                }.foregroundColor(.white)
-                Button(action: {
-                    self.expand.toggle()
-                }) {
-                    Text("Option 3")
-                }.foregroundColor(.white)
+            
+            if isExpandDropDown {
+                List(getOptionList()) { option in
+                    OptionButton(key: option.id, value: option.optionName, option: option) { (identifier, selectedName)  in
+                        selectedOption = selectedName
+                        isExpandDropDown.toggle()
+                    }
+                }
             }
         }) .padding()
+        .frame(width: 150, height: isExpandDropDown ? CGFloat(getOptionList().count * 60 + 40) : 40)
         .background(Color.getLinearGradient())
         .cornerRadius(5)
         .animation(.spring())
