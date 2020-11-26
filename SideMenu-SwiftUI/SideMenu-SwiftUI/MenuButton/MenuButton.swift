@@ -68,26 +68,25 @@ struct didShowSelectedView: View {
     
     var buttonIndex: Int
     var body: some View {
-        GeometryReader {_ in
-            VStack{
-                if buttonIndex == 0 {
-                    RootView()
-                }
-                if buttonIndex == 1 {
-                    Orders()
-                }
-                if buttonIndex == 2 {
-                    Wishlist()
-                }
-                if buttonIndex == 3 {
-                    Abouts()
-                }
+        
+        VStack {            
+            if buttonIndex == 0 {
+                RootView()
+            }
+            if buttonIndex == 1 {
+                Orders()
+            }
+            if buttonIndex == 2 {
+                Wishlist()
+            }
+            if buttonIndex == 3 {
+                Abouts()
             }
         }
     }
 }
 
-struct ViewDivider: View {
+struct Separator: View {
     
     var body: some View {
         Divider()

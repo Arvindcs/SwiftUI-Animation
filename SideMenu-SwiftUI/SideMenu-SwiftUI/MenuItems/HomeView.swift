@@ -35,7 +35,7 @@ struct HomeView : View {
                         .font(.title)
                         .foregroundColor(.white)
                     
-                    ViewDivider()
+                    Separator()
                     
                     //MARK:- Home Button
                     
@@ -75,7 +75,7 @@ struct HomeView : View {
                         }
                     }
                     
-                    ViewDivider()
+                    Separator()
                     
                     MenuButton(imageName: "logout", menuName: "Logout",
                                buttonIndex: self.buttonIndex, buttonPosition: 4) {}
