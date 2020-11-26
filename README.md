@@ -8,7 +8,7 @@ I build iOS apps. Passionate about open source & developer productivity. You can
 ## Animations
 
 #### Side Menu
-<img src="https://github.com/Arvindcs/SwiftUI-Animation/blob/master/SideMenu-SwiftUI/side-menu.gif" width="475" height="400"/>
+<img src="https://github.com/Arvindcs/SwiftUI-Animation/blob/master/SideMenuSwiftUI/side-menu.gif" width="475" height="400"/>
 
 
 
