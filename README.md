@@ -20,9 +20,8 @@
 
 Hi, I'm [Arvind Patel](https://arvindcs.github.io/), a iOS Developer 🚀 from India. Beside's programming, I enjoy eating food and Watching Movies.
 
-<img align="right" alt="GIF" src="https://github.com/Arvindcs/Arvindcs/blob/main/Source/image.gif?raw=true" width="500" height="320" />
-  
-  
+<br/>
+
 
 ## Animations
 
