@@ -24,11 +24,11 @@ Hi, I'm [Arvind Patel](https://arvindcs.github.io/), a iOS Developer 🚀 from I
 
 **Talking about Personal Stuffs:**
 
-- 👨🏽‍💻 I’m currently working on improving my techskill;
-- 🌱 I’m currently learning SwiftUI; 
-- 💬 Ask me about anything, I am happy to help;
-- ⚡️ Fun-Fact: Anything is possible;
-- 📫 How to reach me: arvindpatelcs@gmail.com;
+- 👨🏽‍💻 I’m currently working on improving my techskill
+- 🌱 I’m currently learning SwiftUI
+- 💬 Ask me about anything, I am happy to help
+- ⚡️ Fun-Fact: Anything is possible
+- 📫 How to reach me: arvindpatelcs@gmail.com
 
 ## Animations
 
