@@ -13,6 +13,7 @@ Beside's programming, I enjoy eating food and Watching Movies.
 - ⚡️ Fun-Fact: Anything is possible;
 - 📫 How to reach me: arvindpatelcs@gmail.com;
 
+
 <a href="https://twitter.com/arvindptl">
   <img align="left" alt="Arvind Patel | Twitter" width="22px" src="https://github.com/Arvindcs/Arvindcs/blob/main/Source/twitter.svg" />
 </a>
@@ -28,29 +29,7 @@ Beside's programming, I enjoy eating food and Watching Movies.
 <a href="https://www.instagram.com/codewitharvind/">
   <img align="left" alt="Arvind's Instagram" width="22px" src="https://github.com/Arvindcs/Arvindcs/blob/main/Source/instagram.svg" />
 </a>
-
-
-### Tools
-
-**Software Development:**
-[![Visual Studio](https://img.shields.io/badge/-007ACC?style=flat&logo=Visual-Studio-Code&logoColor=white&link=https://github.com/arvindcs "Visual Studio")](https://github.com/arvindcs)
-[![XCode](https://img.shields.io/badge/-1575F9?style=flat&logo=Xcode&logoColor=white&link=https://github.com/arvindcs "XCode")](https://github.com/arvindcs)
-
-**SDLC**
-[![Agile](https://img.shields.io/badge/Agile-blue?style=flat&logo=Agile&logoColor=white&link=https://github.com/arvindcs "Agile")](https://github.com/arvindcs) 
-[![Scrum](https://img.shields.io/badge/Scrum-green?style=flat&logo=Scrum&logoColor=white&link=https://github.com/arvindcs "Scrum")](https://github.com/arvindcs) 
-[![Kanban](https://img.shields.io/badge/Kanban-red?style=flat&logo=Kanban&logoColor=white&link=https://github.com/arvindcs "Kanban")](https://github.com/arvindcs)
-
-**Software Engineering:**
-[![Jira](https://img.shields.io/badge/-Jira-0052CC?style=flat&logo=jira&logoColor=white&link=https://github.com/arvindcs)](https://github.com/arvindcs)
-[![Travis](https://img.shields.io/badge/-Travis-red?style=flat&logo=travis&logoColor=white&link=https://github.com/arvindcs)](https://github.com/arvindcs) 
-
-**Version Control:**
-[![Bitbucket](https://img.shields.io/badge/-Bitbucket-blue?style=flat&logo=bitbucket&link=https://github.com/arvindcs)](https://github.com/arvindcs)
-[![Git](https://img.shields.io/badge/-Git-black?style=flat&logo=git&link=https://github.com/arvindcs)](https://github.com/arvindcs) 
-[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&link=https://github.com/arvindcs)](https://github.com/arvindcs)
-<br/>
-
+]
 
 ## Animations
 
