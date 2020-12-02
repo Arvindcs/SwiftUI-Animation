@@ -32,10 +32,20 @@ Hi, I'm [Arvind Patel](https://arvindcs.github.io/), a iOS Developer 🚀 from I
 
 ## Animations
 
+#### Tinder Swipe
+<img src="https://github.com/Arvindcs/SwiftUI-Animation/blob/master/tinder-template/tinder-template.gif" width="475" height="400"/>
+
 #### Side Menu
 <img src="https://github.com/Arvindcs/SwiftUI-Animation/blob/master/SideMenuSwiftUI/side-menu.gif" width="475" height="400"/>
 
+#### SwiftUI DropDown
+<img src="https://github.com/Arvindcs/SwiftUI-Animation/blob/master/SwiftUI-DropDown/dropdown.gif" width="475" height="400"/>
 
+#### Instagram Loading Spinner
+<img src="https://github.com/Arvindcs/SwiftUI-Animation/blob/master/InstagramLodingAnimation/InstagramLoadingAnimation.gif" width="475" height="400"/>
+
+#### Character Animation
+<img src="https://github.com/Arvindcs/SwiftUI-Animation/blob/master/CharcterAnimation/charAnmiation.gif" width="475" height="400"/>
 
 #### Circle Rotation
 <img src="https://github.com/Arvindcs/SwiftUI-Animation/blob/master/CircleRotation/circleRotationAnimation.gif" width="475" height="400"/>
@@ -58,23 +68,14 @@ Hi, I'm [Arvind Patel](https://arvindcs.github.io/), a iOS Developer 🚀 from I
 #### Radar Waves
 <img src="https://github.com/Arvindcs/SwiftUI-Animation/blob/master/AnimatedLoadingWaves/radar-waves.gif" width="475" height="400"/>
 
-#### Character Animation
-<img src="https://github.com/Arvindcs/SwiftUI-Animation/blob/master/CharcterAnimation/charAnmiation.gif" width="475" height="400"/>
-
 #### Animated Slide Menu Icon
 <img src="https://github.com/Arvindcs/SwiftUI-Animation/blob/master/SlideMenuIcons/sideMenuIcons.gif" width="475" height="400"/>
-
-#### Instagram Loading Spinner
-<img src="https://github.com/Arvindcs/SwiftUI-Animation/blob/master/InstagramLodingAnimation/InstagramLoadingAnimation.gif" width="475" height="400"/>
 
 #### Stretchable Scroll View
 <img src="https://github.com/Arvindcs/SwiftUI-Animation/blob/master/StretchableScrollView/StretchableScrollView.gif" width="475" height="400"/>
 
 #### Custom Toggle Button
 <img src="https://github.com/Arvindcs/SwiftUI-Animation/blob/master/Custom-Toggle/toggle.gif" width="475" height="400"/>
-
-#### SwiftUI DropDown
-<img src="https://github.com/Arvindcs/SwiftUI-Animation/blob/master/SwiftUI-DropDown/dropdown.gif" width="475" height="400"/>
 
 
 ## Credits
