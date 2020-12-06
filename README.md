@@ -35,6 +35,9 @@ Hi, I'm [Arvind Patel](https://arvindcs.github.io/), a iOS Developer 🚀 from I
 #### Side Menu
 <img src="https://github.com/Arvindcs/SwiftUI-Animation/blob/master/SideMenuSwiftUI/side-menu.gif" width="475" height="400"/>
 
+#### Linkedin Re-Design
+<img src="https://github.com/Arvindcs/SwiftUI-Animation/blob/master/linkedin-template/linkedin.gif" width="475" height="400"/>
+
 #### Instagram Re-Design
 <img src="https://github.com/Arvindcs/SwiftUI-Animation/blob/master/Insta-template/Insta-template.gif" width="475" height="400"/>
 
