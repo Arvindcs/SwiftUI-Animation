@@ -12,9 +12,7 @@ struct PostView : View {
     var body: some View {
         
         VStack {
-            
             HStack {
-                
                 Image(model.personImage)
                     .resizable()
                     .scaledToFit()
@@ -24,9 +22,7 @@ struct PostView : View {
                 Text(model.personName)
                     .font(.custom("Avenir", size: 17))
                     .foregroundColor(.black)
-                
                 Spacer()
-                
                 Text("8 min")
                     .font(.custom("Avenir", size: 17))
                     .foregroundColor(.black)
