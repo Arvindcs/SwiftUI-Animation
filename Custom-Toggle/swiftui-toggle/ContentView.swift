@@ -39,7 +39,7 @@ public struct SunMoonToggleStyle: ToggleStyle {
     
     public func makeBody(configuration: Configuration) -> some View {
         HStack {
-            configuration.label
+           // configuration.label
             ZStack {
                 ZStack {
                     Circle()

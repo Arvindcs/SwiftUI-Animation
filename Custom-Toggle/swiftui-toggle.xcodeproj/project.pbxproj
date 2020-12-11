@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A47FA36D2580AA7600DAFBFE /* StyleKitName.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47FA36C2580AA7600DAFBFE /* StyleKitName.swift */; };
 		A4959F7824E008CB004BB7DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4959F7724E008CB004BB7DA /* AppDelegate.swift */; };
 		A4959F7A24E008CB004BB7DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4959F7924E008CB004BB7DA /* SceneDelegate.swift */; };
 		A4959F7C24E008CB004BB7DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4959F7B24E008CB004BB7DA /* ContentView.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A47FA36C2580AA7600DAFBFE /* StyleKitName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleKitName.swift; sourceTree = "<group>"; };
 		A4959F7424E008CB004BB7DA /* swiftui-toggle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftui-toggle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4959F7724E008CB004BB7DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4959F7924E008CB004BB7DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				A4959F7724E008CB004BB7DA /* AppDelegate.swift */,
 				A4959F7924E008CB004BB7DA /* SceneDelegate.swift */,
 				A4959F7B24E008CB004BB7DA /* ContentView.swift */,
+				A47FA36C2580AA7600DAFBFE /* StyleKitName.swift */,
 				A4959F7D24E008CE004BB7DA /* Assets.xcassets */,
 				A4959F8224E008CE004BB7DA /* LaunchScreen.storyboard */,
 				A4959F8524E008CE004BB7DA /* Info.plist */,
@@ -153,6 +156,7 @@
 				A4959F7A24E008CB004BB7DA /* SceneDelegate.swift in Sources */,
 				A4959F8C24E017EF004BB7DA /* MainPageView.swift in Sources */,
 				A4959F7C24E008CB004BB7DA /* ContentView.swift in Sources */,
+				A47FA36D2580AA7600DAFBFE /* StyleKitName.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
