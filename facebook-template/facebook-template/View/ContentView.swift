@@ -10,23 +10,18 @@ import SwiftUI
 struct ContentView: View {
     
     init() {
-        UITableView.appearance().separatorStyle = .none
-
         UITableView.appearance().showsVerticalScrollIndicator = false
         UITableView.appearance().tableHeaderView = UIView()
+        UITableView.appearance().separatorStyle = .none
     }
     
     var body: some View {
-        
         NavigationBar()
+        
         List {
-            NewPostView().padding(.top, -10)
-            
-            Section {
+            LazyVStack {
+                NewPostView().padding(.top, -10)
                 StoryView()
-            }
-            
-            Section {
                 ForEach(getUserStory()) { post in
                     PostView(model: post)
                         .padding(.trailing ,5)

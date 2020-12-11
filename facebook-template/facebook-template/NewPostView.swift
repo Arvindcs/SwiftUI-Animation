@@ -30,30 +30,53 @@ struct NewPostView: View {
         
         HStack(alignment: .center) {
             
-            Image(systemName: "video.fill")
-                .foregroundColor(Color.red)
-                .font(.system(size: 16))
-            
-            Text("Live")
-                .font(.custom("Avenir-Book", size: 16))
+            ZStack {
+                Capsule().fill(Color.green.opacity(0.3))
+                    .frame(width: 110, height: 30)
+                
+                Image("albums")
+                    .resizable()
+                    .frame(width: 30, height: 30)
+                    .offset(x: -44)
+                
+                Text("Gallary")
+                    .foregroundColor(.green)
+                    .font(.custom("Avenir-Medium", size: 18))
+                    .offset(x: 5)
+            }.offset(x: -10)
             
             Spacer()
             
-            Image(systemName: "photo.fill")
-                .foregroundColor(Color.green)
-                .font(.system(size: 16))
-            
-            Text("Photo")
-                .font(.custom("Avenir-Book", size: 16))
-            
+            ZStack {
+                Capsule().fill(Color.init(hex: "3498DB").opacity(0.3))
+                    .frame(width: 110, height: 30)
+                
+                Image("group-icon")
+                    .resizable()
+                    .frame(width: 30, height: 30)
+                    .offset(x: -44)
+                
+                Text("People")
+                    .foregroundColor(Color.init(hex: "3498DB"))
+                    .font(.custom("Avenir-Medium", size: 18))
+                    .offset(x: 5)
+            }
             Spacer()
             
-            Image(systemName: "location.fill")
-                .foregroundColor(Color.purple)
-                .font(.system(size: 16))
-            
-            Text("Location")
-                .font(.custom("Avenir-Book", size: 16))
+            ZStack {
+                Capsule().fill(Color.init(hex: "FF7B7B").opacity(0.3))
+                    .frame(width: 110, height: 30)
+                
+                Image("video-call")
+                    .resizable()
+                    .frame(width: 30, height: 30)
+                    .offset(x: -44)
+                
+                Text("Live")
+                    .foregroundColor(Color.init(hex: "FF7B7B"))
+                    .font(.custom("Avenir-Medium", size: 18))
+                    .offset(x: 5)
+            }.offset(x: 10)
             
         }.padding(EdgeInsets(top: 5, leading: 20, bottom: 0, trailing: 20))
     }
