@@ -12,6 +12,9 @@ struct SideMenu : View {
     
     @State private var buttonIndex = 0
     @State private var isToggle = false
+    @State private var isRotateTop = false
+    @State private var isCenterLineHidden = false
+    @State private var isRotateBottom = false
   
     var body: some View {
         
@@ -85,15 +88,42 @@ struct SideMenu : View {
             .padding(.top, topheight)
             .padding(.bottom, bottomheight)
             
+            
             VStack(spacing: 0) {
                 HStack(spacing: 15) {
-                    Image(systemName: "line.horizontal.3")
-                        .resizable()
-                        .frame(width: 25, height: isToggle ? 25 : 20)
-                        .rotationEffect(.degrees(isToggle ? 90 : 0))
-                        .onTapGesture {
-                            isToggle.toggle()
-                        }
+                    
+                    VStack(alignment: .center, spacing: 5) {
+                        
+                        Rectangle()
+                            .frame(width: 30, height: 4)
+                            .cornerRadius(2)
+                            .rotationEffect(
+                                .degrees(isRotateTop ? 35 : 0), anchor: .leading)
+                            .foregroundColor(Color.gray)
+                        
+                        Rectangle()
+                            .frame(width: 30, height: 4)
+                            .cornerRadius(2)
+                            .scaleEffect(isCenterLineHidden ? 0 : 1)
+                            .opacity(isCenterLineHidden ? 0 : 1)
+                            .foregroundColor(Color.gray)
+                        
+                        Rectangle()
+                            .frame(width: 30, height: 4)
+                            .cornerRadius(2)
+                            .rotationEffect(
+                                .degrees(isRotateTop ? -35 : 0), anchor:.leading)
+                            .foregroundColor(Color.gray)
+                        
+                    }.animation(Animation.linear)
+                    .onTapGesture {
+                        isRotateTop.toggle()
+                        isRotateBottom.toggle()
+                        isCenterLineHidden.toggle()
+                        isToggle.toggle()
+                    }
+                    // Set Title
+                    NavigationLabel(buttonIndex: buttonIndex)
                     Spacer(minLength: 0)
                 }
                 .padding(.top, topheight)

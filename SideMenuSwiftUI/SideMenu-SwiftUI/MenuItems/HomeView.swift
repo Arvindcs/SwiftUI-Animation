@@ -11,13 +11,6 @@ struct HomeView: View {
     
     var body: some View {
         VStack {
-            ScrollView(.horizontal, showsIndicators: false) {
-                HStack {
-                    BannerView()
-                    BannerView()
-                }
-            }
-            
             List(getProductList()) { productObj in
                 ProductRow(product: productObj)
             }
