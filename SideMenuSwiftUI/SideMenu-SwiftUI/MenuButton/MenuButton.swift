@@ -71,7 +71,7 @@ struct didShowSelectedView: View {
         
         VStack {            
             if buttonIndex == 0 {
-                RootView()
+                HomeView()
             }
             if buttonIndex == 1 {
                 Orders()

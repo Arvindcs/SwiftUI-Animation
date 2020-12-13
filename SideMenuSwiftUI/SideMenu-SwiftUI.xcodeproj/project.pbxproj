@@ -17,8 +17,8 @@
 		A4EC252F256B676A0026D4AE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EC252E256B676A0026D4AE /* ContentView.swift */; };
 		A4EC2534256B676E0026D4AE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4EC2533256B676E0026D4AE /* Preview Assets.xcassets */; };
 		A4EC2537256B676E0026D4AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4EC2535256B676E0026D4AE /* LaunchScreen.storyboard */; };
-		A4EC2540256B679F0026D4AE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EC253F256B679F0026D4AE /* HomeView.swift */; };
-		A4EC2544256B68520026D4AE /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EC2543256B68520026D4AE /* RootView.swift */; };
+		A4EC2540256B679F0026D4AE /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EC253F256B679F0026D4AE /* SideMenu.swift */; };
+		A4EC2544256B68520026D4AE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EC2543256B68520026D4AE /* HomeView.swift */; };
 		A4EC254C256B6B240026D4AE /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EC254B256B6B240026D4AE /* Color.swift */; };
 		A4EC2551256B72010026D4AE /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EC2550256B72010026D4AE /* Product.swift */; };
 		A4EC2560256B745B0026D4AE /* MenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EC255F256B745B0026D4AE /* MenuButton.swift */; };
@@ -37,8 +37,8 @@
 		A4EC2533256B676E0026D4AE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A4EC2536256B676E0026D4AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4EC2538256B676E0026D4AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A4EC253F256B679F0026D4AE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		A4EC2543256B68520026D4AE /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		A4EC253F256B679F0026D4AE /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
+		A4EC2543256B68520026D4AE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		A4EC254B256B6B240026D4AE /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		A4EC2550256B72010026D4AE /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		A4EC255F256B745B0026D4AE /* MenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuButton.swift; sourceTree = "<group>"; };
@@ -58,7 +58,7 @@
 		A4195FCE256B8A4200557885 /* MenuItems */ = {
 			isa = PBXGroup;
 			children = (
-				A4EC253F256B679F0026D4AE /* HomeView.swift */,
+				A4EC2543256B68520026D4AE /* HomeView.swift */,
 				A4195FCF256B8A6400557885 /* Orders.swift */,
 				A4195FD3256B8AAC00557885 /* Wishlist.swift */,
 				A4195FD6256B8AD900557885 /* Abouts.swift */,
@@ -128,7 +128,6 @@
 		A4EC2555256B721A0026D4AE /* RootView */ = {
 			isa = PBXGroup;
 			children = (
-				A4EC2543256B68520026D4AE /* RootView.swift */,
 			);
 			path = RootView;
 			sourceTree = "<group>";
@@ -145,6 +144,7 @@
 		A4EC2559256B725F0026D4AE /* ContentView */ = {
 			isa = PBXGroup;
 			children = (
+				A4EC253F256B679F0026D4AE /* SideMenu.swift */,
 				A4EC252E256B676A0026D4AE /* ContentView.swift */,
 			);
 			path = ContentView;
@@ -246,11 +246,11 @@
 			files = (
 				A4195FD7256B8AD900557885 /* Abouts.swift in Sources */,
 				A4EC252B256B676A0026D4AE /* AppDelegate.swift in Sources */,
-				A4EC2540256B679F0026D4AE /* HomeView.swift in Sources */,
+				A4EC2540256B679F0026D4AE /* SideMenu.swift in Sources */,
 				A4EC252D256B676A0026D4AE /* SceneDelegate.swift in Sources */,
 				A4EC252F256B676A0026D4AE /* ContentView.swift in Sources */,
 				A4EC2560256B745B0026D4AE /* MenuButton.swift in Sources */,
-				A4EC2544256B68520026D4AE /* RootView.swift in Sources */,
+				A4EC2544256B68520026D4AE /* HomeView.swift in Sources */,
 				A4195FD4256B8AAC00557885 /* Wishlist.swift in Sources */,
 				A45D5EC0256CB21F00EDF1B5 /* BannerView.swift in Sources */,
 				A4EC254C256B6B240026D4AE /* Color.swift in Sources */,

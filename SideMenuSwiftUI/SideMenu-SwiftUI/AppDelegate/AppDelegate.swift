@@ -7,6 +7,9 @@
 
 import UIKit
 
+let topheight = UIApplication.shared.windows.first?.safeAreaInsets.top
+let bottomheight = UIApplication.shared.windows.first?.safeAreaInsets.bottom
+
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
