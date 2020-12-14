@@ -39,7 +39,7 @@ Hi, I'm [Arvind Patel](https://arvindcs.github.io/), a iOS Developer 🚀 from I
 <img src="https://github.com/Arvindcs/SwiftUI-Animation/blob/master/linkedin-template/linkedin.gif" width="475" height="400"/>
 
 #### Facebook Re-Design
-<img src="https://i.imgur.com/lpRHCr3.gif" width="475" height="400"/>
+<img src="https://i.imgur.com/1fdhc8R.gif" width="475" height="400"/>
 
 #### Instagram Re-Design
 <img src="https://i.imgur.com/lpRHCr3.gif" width="475" height="400"/>
