@@ -64,8 +64,11 @@ struct PostView: View {
             }
             .padding()
         }
-        .background(Color.gray)
+        .background(Color.white)
+        .cornerRadius(15)
         .padding([.horizontal, .bottom])
-       
+        .shadow(color: Color.black.opacity(0.4), radius: 10, x: 0, y: 0)
+        .shadow(color: Color.white.opacity(0.9), radius: 10, x: 0, y: 0)
+        
     }
 }
