@@ -74,21 +74,6 @@ Hi, I'm [Arvind Patel](https://arvindcs.github.io/), a iOS Developer 🚀 from I
 #### Bar Chart in SwiftUI
 <img src="https://github.com/Arvindcs/SwiftUI-Animation/blob/master/ChartAnimation/chartAnimation.gif" width="475" height="400"/>
 
-#### Back To Back Animated Dot
-<img src="https://github.com/Arvindcs/SwiftUI-Animation/blob/master/BackToBackAnimatedDot/backtobackdots.gif" width="475" height="400"/>
-
-#### Animated Dots
-<img src="https://github.com/Arvindcs/SwiftUI-Animation/blob/master/AnimatedDots/dot-animation.gif" width="475" height="400"/>
-
-#### Radar Waves
-<img src="https://github.com/Arvindcs/SwiftUI-Animation/blob/master/AnimatedLoadingWaves/radar-waves.gif" width="475" height="400"/>
-
-#### Animated Slide Menu Icon
-<img src="https://github.com/Arvindcs/SwiftUI-Animation/blob/master/SlideMenuIcons/sideMenuIcons.gif" width="475" height="400"/>
-
-#### Stretchable Scroll View
-<img src="https://github.com/Arvindcs/SwiftUI-Animation/blob/master/StretchableScrollView/StretchableScrollView.gif" width="475" height="400"/>
-
 #### Custom Toggle Button
 <img src="https://github.com/Arvindcs/SwiftUI-Animation/blob/master/Custom-Toggle/toggle.gif" width="475" height="400"/>
 
