@@ -93,6 +93,13 @@ Hi, I'm [Arvind Patel](https://arvindcs.github.io/), a iOS Developer 🚀 from I
 <img src="https://github.com/Arvindcs/SwiftUI-Animation/blob/master/Custom-Toggle/toggle.gif" width="475" height="400"/>
 
 
+## Donation 
+If you like this project and want to support me, you can do it by helping me to get a pint. ;)
+
+[![Paypal](https://github.com/Arvindcs/SwiftUI-Animation/blob/master/Source/paypal.png)](paypal.me/arvindp07)
+
+
+
 ## Credits
 © Arvind Patel | 2020
 If you like my work, and would like to see more content you can follow me here -
