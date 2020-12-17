@@ -53,6 +53,9 @@ Hi, I'm [Arvind Patel](https://arvindcs.github.io/), a iOS Developer 🚀 from I
 #### Tinder Swipe
 <img src="https://github.com/Arvindcs/SwiftUI-Animation/blob/master/tinder-template/tinder-template.gif" width="475" height="400"/>
 
+#### Ring Loading
+<img src="https://i.imgur.com/nQfR3nO.gif" width="475" height="400"/>
+
 #### SwiftUI DropDown
 <img src="https://github.com/Arvindcs/SwiftUI-Animation/blob/master/SwiftUI-DropDown/dropdown.gif" width="475" height="400"/>
 
@@ -64,12 +67,6 @@ Hi, I'm [Arvind Patel](https://arvindcs.github.io/), a iOS Developer 🚀 from I
 
 #### Circle Rotation
 <img src="https://github.com/Arvindcs/SwiftUI-Animation/blob/master/CircleRotation/circleRotationAnimation.gif" width="475" height="400"/>
-
-#### Circle Loading
-<img src="https://github.com/Arvindcs/SwiftUI-Animation/blob/master/CircleLoadingAnimation/CircleLoading.gif" width="475" height="400"/>
-
-#### Swapping Balls
-<img src="https://github.com/Arvindcs/SwiftUI-Animation/blob/master/SwappingBall/ball-animation.gif" width="475" height="400"/>
 
 #### Bar Chart in SwiftUI
 <img src="https://github.com/Arvindcs/SwiftUI-Animation/blob/master/ChartAnimation/chartAnimation.gif" width="475" height="400"/>
