@@ -35,6 +35,12 @@ Hi, I'm [Arvind Patel](https://arvindcs.github.io/), a iOS Developer 🚀 from I
 #### Side Menu
 <img src="https://i.imgur.com/YYihmZy.gif" width="475" height="400"/>
 
+#### Instagram Re-Design
+<img src="https://i.imgur.com/lpRHCr3.gif" width="475" height="400"/>
+
+#### Animated Side Menu
+<img src="https://i.imgur.com/kqiwDJP.gif" width="475" height="400"/>
+
 #### Card Animation
 <img src="https://i.imgur.com/bAjseX5.gif" width="475" height="400"/>
 
@@ -43,12 +49,6 @@ Hi, I'm [Arvind Patel](https://arvindcs.github.io/), a iOS Developer 🚀 from I
 
 #### Facebook Re-Design
 <img src="https://i.imgur.com/1fdhc8R.gif" width="475" height="400"/>
-
-#### Animated Side Menu
-<img src="https://i.imgur.com/kqiwDJP.gif" width="475" height="400"/>
-
-#### Instagram Re-Design
-<img src="https://i.imgur.com/lpRHCr3.gif" width="475" height="400"/>
 
 #### Tinder Swipe
 <img src="https://github.com/Arvindcs/SwiftUI-Animation/blob/master/tinder-template/tinder-template.gif" width="475" height="400"/>
