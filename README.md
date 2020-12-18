@@ -65,6 +65,9 @@ Hi, I'm [Arvind Patel](https://arvindcs.github.io/), a iOS Developer 🚀 from I
 #### Character Animation
 <img src="https://github.com/Arvindcs/SwiftUI-Animation/blob/master/CharcterAnimation/charAnmiation.gif" width="475" height="400"/>
 
+#### Swapping Dots Animation
+<img src="https://i.imgur.com/LVa4mAB.gif" width="475" height="400"/>
+
 #### Circle Rotation
 <img src="https://github.com/Arvindcs/SwiftUI-Animation/blob/master/CircleRotation/circleRotationAnimation.gif" width="475" height="400"/>
 
