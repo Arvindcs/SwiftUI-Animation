@@ -14,18 +14,20 @@ struct ContentView: View {
                 Text(String(characters[num]))
                     .padding(6)
                     .font(.title)
-                    .background(enable ? Color.getDefaultColor1() : Color.getDefaultColor2())
+                    .background(enable ?
+                                    Color.getDefaultColor1() :
+                                    Color.getDefaultColor2())
                     .offset(dragValue)
                     .foregroundColor(.white)
-                    .animation(Animation.default.delay(Double(num) / 10))
+                    .animation(Animation.default
+                    .delay(Double(num) / 10))
             }
-        }.gesture(
-            DragGesture()
-                .onChanged { dragValue = $0.translation }
-                .onEnded { _ in
-                    dragValue = .zero
-                    enable.toggle()
-                }
+        }.gesture(DragGesture()
+                    .onChanged { dragValue = $0.translation }
+                    .onEnded { _ in
+                        dragValue = .zero
+                        enable.toggle()
+                    }
         )
     }
 }
