@@ -90,5 +90,4 @@ If you like this project and want to support me, you can do it by helping me to 
 
 ## Credits
 © Arvind Patel | 2020
-If you like my work, and would like to see more content you can follow me here -
 
