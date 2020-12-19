@@ -56,9 +56,6 @@ Hi, I'm [Arvind Patel](https://arvindcs.github.io/), a iOS Developer 🚀 from I
 #### Ring Loading
 <img src="https://i.imgur.com/nQfR3nO.gif" width="475" height="400"/>
 
-#### SwiftUI DropDown
-<img src="https://github.com/Arvindcs/SwiftUI-Animation/blob/master/SwiftUI-DropDown/dropdown.gif" width="475" height="400"/>
-
 #### Circle Rotation
 <img src="https://i.imgur.com/ZFZhzsL.gif" width="475" height="400"/>
 
@@ -71,14 +68,8 @@ Hi, I'm [Arvind Patel](https://arvindcs.github.io/), a iOS Developer 🚀 from I
 #### Animated Dots
 <img src="https://i.imgur.com/FhhrtkF.gif" width="475" height="400"/>
 
-#### Bar Chart in SwiftUI
-<img src="https://i.imgur.com/07dS5xA.gif" width="475" height="400"/>
-
 #### Instagram Loading Spinner
 <img src="https://github.com/Arvindcs/SwiftUI-Animation/blob/master/InstagramLodingAnimation/InstagramLoadingAnimation.gif" width="475" height="400"/>
-
-#### Custom Toggle Button
-<img src="https://github.com/Arvindcs/SwiftUI-Animation/blob/master/Custom-Toggle/toggle.gif" width="475" height="400"/>
 
 
 ## Donation 
