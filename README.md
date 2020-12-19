@@ -59,6 +59,9 @@ Hi, I'm [Arvind Patel](https://arvindcs.github.io/), a iOS Developer 🚀 from I
 #### SwiftUI DropDown
 <img src="https://github.com/Arvindcs/SwiftUI-Animation/blob/master/SwiftUI-DropDown/dropdown.gif" width="475" height="400"/>
 
+#### Circle Rotation
+<img src="https://i.imgur.com/ZFZhzsL.gif" width="475" height="400"/>
+
 #### Instagram Loading Spinner
 <img src="https://github.com/Arvindcs/SwiftUI-Animation/blob/master/InstagramLodingAnimation/InstagramLoadingAnimation.gif" width="475" height="400"/>
 
@@ -67,9 +70,6 @@ Hi, I'm [Arvind Patel](https://arvindcs.github.io/), a iOS Developer 🚀 from I
 
 #### Swapping Dots Animation
 <img src="https://i.imgur.com/LVa4mAB.gif" width="475" height="400"/>
-
-#### Circle Rotation
-<img src="https://github.com/Arvindcs/SwiftUI-Animation/blob/master/CircleRotation/circleRotationAnimation.gif" width="475" height="400"/>
 
 #### Bar Chart in SwiftUI
 <img src="https://github.com/Arvindcs/SwiftUI-Animation/blob/master/ChartAnimation/chartAnimation.gif" width="475" height="400"/>
