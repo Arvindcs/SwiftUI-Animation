@@ -16,14 +16,15 @@ struct OptionButton: View {
     var onSelect: ((_ key: UUID, _ name: String) -> Void)?
     
     var body: some View {
-        
-        Button(action: {
-            if let onSelect = self.onSelect {
-                onSelect(self.key, value)
+        ZStack {
+            Color.getLinearGradient()
+            Button(action: {
+                if let onSelect = self.onSelect {
+                    onSelect(self.key, value)
+                }
+            }) {
+                Text(option.optionName)
             }
-        }) {
-            Text(option.optionName)
-                .foregroundColor(.blue)
         }
     }
 }

@@ -10,7 +10,7 @@ import SwiftUI
 
 struct ContentView : View {
     @State var isExpandDropDown = false
-    @State var selectedOption = "Option 1" // By defult selected value
+    @State var selectedOption = "Option 1"
     
     var body : some  View {
         VStack(alignment: .center, spacing: 25, content:{
@@ -18,7 +18,8 @@ struct ContentView : View {
                 Text(selectedOption).fontWeight(.heavy)
                     .foregroundColor(.white)
                 
-                Image(systemName: isExpandDropDown ? "chevron.up" : "chevron.down")
+                Image(systemName: isExpandDropDown ?
+                        "chevron.up" : "chevron.down")
                     .resizable().frame(width: 13, height: 6)
                     .foregroundColor(.white)
                 
@@ -28,14 +29,18 @@ struct ContentView : View {
             
             if isExpandDropDown { // TODO:- //getOptionList is your model array 
                 List(getOptionList()) { option in
-                    OptionButton(key: option.id, value: option.optionName, option: option) { (identifier, selectedName)  in
+                    OptionButton(key: option.id,
+                                 value: option.optionName,
+                                 option: option) {
+                        (identifier, selectedName)  in
                         selectedOption = selectedName
                         isExpandDropDown.toggle()
-                    }
+                    }.background(Color.red)
                 }
             }
         }) .padding()
-        .frame(width: 150, height: isExpandDropDown ? CGFloat(getOptionList().count * 60 + 40) : 40)
+        .frame(width: 150, height: isExpandDropDown ?
+                CGFloat(getOptionList().count * 60 + 40) : 40)
         .background(Color.getLinearGradient())
         .cornerRadius(5)
         .animation(.spring())
