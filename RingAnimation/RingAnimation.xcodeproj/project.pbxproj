@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A492472C254BD22D00BB4261 /* CircleLoadingAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircleLoadingAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A492472C254BD22D00BB4261 /* RingAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RingAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A492472F254BD22D00BB4261 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4924731254BD22D00BB4261 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A4924733254BD22D00BB4261 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		A4924723254BD22D00BB4261 = {
 			isa = PBXGroup;
 			children = (
-				A492472E254BD22D00BB4261 /* CircleLoadingAnimation */,
+				A492472E254BD22D00BB4261 /* RingAnimation */,
 				A492472D254BD22D00BB4261 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +48,12 @@
 		A492472D254BD22D00BB4261 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A492472C254BD22D00BB4261 /* CircleLoadingAnimation.app */,
+				A492472C254BD22D00BB4261 /* RingAnimation.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A492472E254BD22D00BB4261 /* CircleLoadingAnimation */ = {
+		A492472E254BD22D00BB4261 /* RingAnimation */ = {
 			isa = PBXGroup;
 			children = (
 				A492472F254BD22D00BB4261 /* AppDelegate.swift */,
@@ -64,7 +64,7 @@
 				A492473D254BD23100BB4261 /* Info.plist */,
 				A4924737254BD23100BB4261 /* Preview Content */,
 			);
-			path = CircleLoadingAnimation;
+			path = RingAnimation;
 			sourceTree = "<group>";
 		};
 		A4924737254BD23100BB4261 /* Preview Content */ = {
@@ -78,9 +78,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A492472B254BD22D00BB4261 /* CircleLoadingAnimation */ = {
+		A492472B254BD22D00BB4261 /* RingAnimation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A4924740254BD23100BB4261 /* Build configuration list for PBXNativeTarget "CircleLoadingAnimation" */;
+			buildConfigurationList = A4924740254BD23100BB4261 /* Build configuration list for PBXNativeTarget "RingAnimation" */;
 			buildPhases = (
 				A4924728254BD22D00BB4261 /* Sources */,
 				A4924729254BD22D00BB4261 /* Frameworks */,
@@ -90,9 +90,9 @@
 			);
 			dependencies = (
 			);
-			name = CircleLoadingAnimation;
+			name = RingAnimation;
 			productName = CircleLoadingAnimation;
-			productReference = A492472C254BD22D00BB4261 /* CircleLoadingAnimation.app */;
+			productReference = A492472C254BD22D00BB4261 /* RingAnimation.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -109,7 +109,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A4924727254BD22D00BB4261 /* Build configuration list for PBXProject "CircleLoadingAnimation" */;
+			buildConfigurationList = A4924727254BD22D00BB4261 /* Build configuration list for PBXProject "RingAnimation" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -122,7 +122,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A492472B254BD22D00BB4261 /* CircleLoadingAnimation */,
+				A492472B254BD22D00BB4261 /* RingAnimation */,
 			);
 		};
 /* End PBXProject section */
@@ -287,15 +287,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"CircleLoadingAnimation/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"RingAnimation/Preview Content\"";
 				DEVELOPMENT_TEAM = 493S77954X;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = CircleLoadingAnimation/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/RingAnimation/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.codewithArvind.com.CircleLoadingAnimation;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codewithArvind.RingAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -308,15 +308,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"CircleLoadingAnimation/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"RingAnimation/Preview Content\"";
 				DEVELOPMENT_TEAM = 493S77954X;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = CircleLoadingAnimation/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/RingAnimation/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.codewithArvind.com.CircleLoadingAnimation;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codewithArvind.RingAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -326,7 +326,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A4924727254BD22D00BB4261 /* Build configuration list for PBXProject "CircleLoadingAnimation" */ = {
+		A4924727254BD22D00BB4261 /* Build configuration list for PBXProject "RingAnimation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A492473E254BD23100BB4261 /* Debug */,
@@ -335,7 +335,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A4924740254BD23100BB4261 /* Build configuration list for PBXNativeTarget "CircleLoadingAnimation" */ = {
+		A4924740254BD23100BB4261 /* Build configuration list for PBXNativeTarget "RingAnimation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A4924741254BD23100BB4261 /* Debug */,
