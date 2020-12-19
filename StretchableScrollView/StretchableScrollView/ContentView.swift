@@ -1,4 +1,0 @@
-//
-//  ContentView.swift
-//  SwiftUI-Strechyheader
-//
