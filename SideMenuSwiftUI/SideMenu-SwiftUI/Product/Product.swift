@@ -8,11 +8,8 @@
 import SwiftUI
 
 struct ProductRow: View {
-        
     var product: Product
-    
     var body: some View {
-    
         HStack(spacing: 15) {
             Image(product.imageName)
                 .resizable()
@@ -27,7 +24,6 @@ struct ProductRow: View {
                 Text(product.productDiscription)
                     .foregroundColor(.secondary)
             }
-            
             Spacer(minLength: 0)
         }.background((UIImage(named: product.imageName)?
         .getPixelColor(pos: CGPoint(x: 5, y: 5))))
