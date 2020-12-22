@@ -14,7 +14,8 @@ struct ContentView : View {
     init() { UITabBar.appearance().isHidden = true }
     
     var body: some View {
-        ZStack (alignment: Alignment(horizontal: .center, vertical: .bottom)){
+        ZStack (alignment: Alignment(horizontal: .center,
+                                     vertical: .bottom)) {
             TabView(selection: $selectedTabBar) {
                 if selectedTabBar == tabList[0] {
                     Color.blue.ignoresSafeArea()
@@ -29,8 +30,9 @@ struct ContentView : View {
             HStack() {
                 ForEach(tabList,id: \.self) { image in
                     GeometryReader { reader in
-                        TabbarButton(image: image, selectedTabBar: selectedTabBar, reader: reader) {
-                            withAnimation(.spring()) {
+                        TabbarButton(image: image, selectedTabBar:
+                        selectedTabBar, reader: reader) {
+                            withAnimation(Animation.linear(duration: 0.3)) {
                                 selectedTabBar = image
                                 xOffSet = reader.frame(in: .global).minX
                             }
