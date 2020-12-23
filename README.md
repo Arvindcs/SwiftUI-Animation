@@ -38,6 +38,9 @@ Hi, I'm [Arvind Patel](https://arvindcs.github.io/), a iOS Developer 🚀 from I
 #### Instagram Re-Design
 <img src="https://i.imgur.com/lpRHCr3.gif" width="475" height="400"/>
 
+#### Tabbar
+<img src="https://i.imgur.com/612RdiI.gif" width="475" height="400"/>
+
 #### Animated Side Menu
 <img src="https://i.imgur.com/kqiwDJP.gif" width="475" height="400"/>
 
