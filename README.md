@@ -41,6 +41,9 @@ Hi, I'm [Arvind Patel](https://arvindcs.github.io/), a iOS Developer 🚀 from I
 #### Tabbar
 <img src="https://i.imgur.com/612RdiI.gif" width="475" height="400"/>
 
+#### Tabbar
+<img src="https://i.imgur.com/TwSJADj.gif" width="475" height="400"/>
+
 #### Animated Side Menu
 <img src="https://i.imgur.com/kqiwDJP.gif" width="475" height="400"/>
 
