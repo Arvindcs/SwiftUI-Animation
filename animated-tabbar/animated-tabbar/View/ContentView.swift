@@ -27,6 +27,7 @@ struct ContentView : View {
                     Color.green.ignoresSafeArea()
                 }
             }
+            
             HStack() {
                 ForEach(tabList,id: \.self) { image in
                     GeometryReader { reader in
