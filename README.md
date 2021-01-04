@@ -81,7 +81,7 @@ Hi, I'm [Arvind Patel](https://arvindcs.github.io/), a iOS Developer 🚀 from I
 ## Donation 
 If you like this project and want to support me, you can do it by helping me to get a pint. ;)
 
-[![Paypal](https://github.com/Arvindcs/SwiftUI-Animation/blob/master/Source/paypal.png)](paypal.me/arvindp07)
+[![Paypal](https://github.com/Arvindcs/SwiftUI-Animation/blob/master/Source/paypal.png)](https://www.paypal.com/paypalme/arvindp07)
 
 
 
