@@ -36,12 +36,14 @@ class SmartWatchView: UIView {
         let animation = CABasicAnimation(keyPath: "strokeEnd")
         animation.fromValue = 0
         animation.toValue = 1
-        animation.duration = 8
+        animation.duration = 10
         shapeLayer.add(animation, forKey: "line")
         
-        DispatchQueue.main.asyncAfter(deadline: .now() + 8) {
-            self.shapeLayer.strokeColor = UIColor(red: 137/255, green: 192/255, blue: 180/255, alpha: 1).cgColor
-            self.shapeLayer.fillColor = UIColor(red: 137/255, green: 192/255, blue: 180/255, alpha: 1).cgColor
+        DispatchQueue.main.asyncAfter(deadline: .now() + 10.2) {
+            let darkGreen = UIColor(red: 137/255, green: 192/255, blue: 180/255, alpha: 1).cgColor
+            self.shapeLayer.lineWidth = 1.0
+            self.shapeLayer.strokeColor = UIColor.white.cgColor
+            self.shapeLayer.fillColor = darkGreen
         }
     }
     

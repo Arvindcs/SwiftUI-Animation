@@ -13,7 +13,7 @@
 		A4C2A15725CA5F5100B8E4E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4C2A15525CA5F5100B8E4E1 /* Main.storyboard */; };
 		A4C2A15925CA5F5600B8E4E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4C2A15825CA5F5600B8E4E1 /* Assets.xcassets */; };
 		A4C2A15C25CA5F5600B8E4E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4C2A15A25CA5F5600B8E4E1 /* LaunchScreen.storyboard */; };
-		A4C2A16825CA76C600B8E4E1 /* IPhoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C2A16725CA76C600B8E4E1 /* IPhoneView.swift */; };
+		A4C2A16825CA76C600B8E4E1 /* SmartWatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C2A16725CA76C600B8E4E1 /* SmartWatchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		A4C2A15825CA5F5600B8E4E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4C2A15B25CA5F5600B8E4E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4C2A15D25CA5F5600B8E4E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A4C2A16725CA76C600B8E4E1 /* IPhoneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPhoneView.swift; sourceTree = "<group>"; };
+		A4C2A16725CA76C600B8E4E1 /* SmartWatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartWatchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +58,8 @@
 		A4C2A14E25CA5F5100B8E4E1 /* Smartwatch */ = {
 			isa = PBXGroup;
 			children = (
-				A4C2A16F25CA897B00B8E4E1 /* Resource */,
 				A4C2A16E25CA897600B8E4E1 /* AppDelegate */,
+				A4C2A16F25CA897B00B8E4E1 /* Resource */,
 				A4C2A16D25CA897200B8E4E1 /* View */,
 				A4C2A15D25CA5F5600B8E4E1 /* Info.plist */,
 			);
@@ -69,7 +69,7 @@
 		A4C2A16D25CA897200B8E4E1 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				A4C2A16725CA76C600B8E4E1 /* IPhoneView.swift */,
+				A4C2A16725CA76C600B8E4E1 /* SmartWatchView.swift */,
 				A4C2A15325CA5F5100B8E4E1 /* ViewController.swift */,
 			);
 			path = View;
@@ -165,7 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4C2A15425CA5F5100B8E4E1 /* ViewController.swift in Sources */,
-				A4C2A16825CA76C600B8E4E1 /* IPhoneView.swift in Sources */,
+				A4C2A16825CA76C600B8E4E1 /* SmartWatchView.swift in Sources */,
 				A4C2A15025CA5F5100B8E4E1 /* AppDelegate.swift in Sources */,
 				A4C2A15225CA5F5100B8E4E1 /* SceneDelegate.swift in Sources */,
 			);
