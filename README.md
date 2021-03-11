@@ -41,7 +41,10 @@ Hi, I'm [Arvind Patel](https://arvindcs.github.io/), a iOS Developer 🚀 from I
 #### Tabbar
 <img src="https://i.imgur.com/612RdiI.gif" width="475" height="400"/>
 
-#### Tabbar
+#### Three Dot Tringle Rotation
+<img src="https://i.imgur.com/i8bC5Z8.gif" width="475" height="400"/>
+
+#### Add/Remove Button
 <img src="https://i.imgur.com/TwSJADj.gif" width="475" height="400"/>
 
 #### Animated Side Menu
