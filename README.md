@@ -36,7 +36,7 @@ Hi, I'm [Arvind Patel](https://arvindcs.github.io/), a iOS Developer 🚀 from I
 <img src="https://i.imgur.com/YYihmZy.gif" width="475" height="400"/>
 
 #### Nike Cart View
-<img src="https://i.imgur.com/19Gcyt4.gif" width="475" height="400"/>
+<img src="https://i.imgur.com/19Gcyt4.gif" width="475" height="320"/>
 
 #### Instagram Re-Design
 <img src="https://i.imgur.com/lpRHCr3.gif" width="475" height="400"/>
