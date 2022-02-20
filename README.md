@@ -30,6 +30,10 @@ Hi, I'm [Arvind Patel](https://arvindcs.github.io/), a iOS Developer 🚀 from I
 - ⚡️ Fun-Fact: Anything is possible
 - 📫 How to reach me: arvindpatelcs@gmail.com
 
+#### If you like the project, don't forget to `put star 🌟`.
+
+</a>&nbsp;&nbsp;&nbsp;<a href="https://paypal.me/diwakarp8" target="_blank"><img src="https://img.shields.io/badge/Donate-informational?style=for-the-badge&logo=paypal&logoColor=white" ></a>
+
 ## Animations
 
 #### Side Menu
@@ -84,12 +88,6 @@ Hi, I'm [Arvind Patel](https://arvindcs.github.io/), a iOS Developer 🚀 from I
 <img src="https://github.com/Arvindcs/SwiftUI-Animation/blob/master/InstagramLodingAnimation/InstagramLoadingAnimation.gif" width="475" height="400"/>
 
 
-## Donation 
-If you like this project and want to support me, you can do it by helping me to get a pint. ;)
-
-[![Paypal](https://github.com/Arvindcs/SwiftUI-Animation/blob/master/Source/paypal.png)](https://www.paypal.me/arvindp07)
-
-
 ## Credits
-© Arvind Patel | 2020
+© Arvind Patel | 2022
 
