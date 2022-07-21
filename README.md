@@ -28,7 +28,7 @@ Hi, I'm [Arvind Patel](https://arvindcs.github.io/), a iOS Developer 🚀 from I
 - 🌱 I’m currently learning SwiftUI
 - 💬 Ask me about anything, I am happy to help
 - ⚡️ Fun-Fact: Anything is possible
-- 📫 How to reach me: arvindpatelcs@gmail.com
+- 📫 How to reach me: arvindkumar7161@gmail.com
 
 #### If you like the project, don't forget to `put star 🌟`.
 
