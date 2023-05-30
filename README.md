@@ -13,7 +13,7 @@
   <img align="left" alt="Arvind's Telegram" width="22px" src="https://github.com/Arvindcs/SwiftUI-Animation/blob/master/Source/telegram.svg" />
 </a>
 
-<a href="https://www.instagram.com/codewitharvind/">
+<a href="https://www.instagram.com/developer.arvind/">
   <img align="left" alt="Arvind's Instagram" width="22px" src="https://github.com/Arvindcs/SwiftUI-Animation/blob/master/Source/instagram.svg" />
 </a>
 <br/>
