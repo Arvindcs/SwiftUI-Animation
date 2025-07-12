@@ -1,15 +1,16 @@
 //
 //  ContentView.swift
-//  happn-dating
+//  tinder-template
 //
 //  Created by Arvind on 01/12/20.
+//  Refactored to follow SOLID principles
 //
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        RootView()
+        MainView()
     }
 }
 
