@@ -10,7 +10,7 @@ import SwiftUI
 struct Orders: View {
     
     var body: some View {
-      
-        Color.getColor1().edgesIgnoringSafeArea(.all)
+        Color.getColor1()
+            .ignoresSafeArea(.all)
     }
 }

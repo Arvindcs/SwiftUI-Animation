@@ -17,81 +17,36 @@ struct MenuButton: View {
 
     var body: some View {
         Button(action: action) {
-            HStack(spacing: 25){
+            HStack(spacing: 16) {
                 Image(imageName)
-                    .frame(width: 18, height: 26)
-                    .scaledToFit()
-                    .foregroundColor(Color.white)
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: 20, height: 20)
+                    .foregroundColor(buttonIndex == buttonPosition ? .white : .white.opacity(0.8))
+                    .animation(.easeInOut(duration: 0.2), value: buttonIndex)
+                
                 Text(menuName)
-                    .foregroundColor(Color.white)
+                    .font(.system(size: 16, weight: .medium, design: .rounded))
+                    .foregroundColor(buttonIndex == buttonPosition ? .white : .white.opacity(0.8))
+                    .animation(.easeInOut(duration: 0.2), value: buttonIndex)
+                
+                Spacer()
             }
-            .padding(.vertical, 10)
-            .padding(.horizontal)
-            .background(buttonIndex == buttonPosition ? Color.white.opacity(0.2) : Color.clear)
-            .cornerRadius(10)
+            .padding(.vertical, 12)
+            .padding(.horizontal, 16)
+            .background(
+                RoundedRectangle(cornerRadius: 12)
+                    .fill(buttonIndex == buttonPosition ? 
+                          Color.white.opacity(0.25) : Color.clear)
+                    .overlay(
+                        RoundedRectangle(cornerRadius: 12)
+                            .stroke(buttonIndex == buttonPosition ? 
+                                   Color.white.opacity(0.3) : Color.clear, lineWidth: 1)
+                    )
+            )
+            .scaleEffect(buttonIndex == buttonPosition ? 1.02 : 1.0)
+            .animation(.spring(response: 0.3, dampingFraction: 0.7), value: buttonIndex)
         }
-    }
-}
-
-struct NavigationLabel: View {
-    
-    var buttonIndex: Int
-    var body: some View {
-        
-        if (buttonIndex == 0) {
-            Text("Home")
-                .font(.title)
-                .foregroundColor(Color.black.opacity(0.6))
-        }
-        
-        if (buttonIndex == 1) {
-            Text("Orders")
-                .font(.title)
-                .foregroundColor(Color.black.opacity(0.6))
-        }
-        
-        if (buttonIndex == 2) {
-            Text("WishList")
-                .font(.title)
-                .foregroundColor(Color.black.opacity(0.6))
-        }
-        
-        if (buttonIndex == 3) {
-            Text("About")
-                .font(.title)
-                .foregroundColor(Color.black.opacity(0.6))
-        }
-    }
-}
-
-struct didShowSelectedView: View {
-    
-    var buttonIndex: Int
-    var body: some View {
-        
-        VStack {            
-            if buttonIndex == 0 {
-                HomeView()
-            }
-            if buttonIndex == 1 {
-                Orders()
-            }
-            if buttonIndex == 2 {
-                Wishlist()
-            }
-            if buttonIndex == 3 {
-                Abouts()
-            }
-        }
-    }
-}
-
-struct Separator: View {
-    
-    var body: some View {
-        Divider()
-            .frame(width: 150, height: 1)
-            .background(Color.white)
-            .padding(.vertical,30)
+        .buttonStyle(PlainButtonStyle())
     }
 }

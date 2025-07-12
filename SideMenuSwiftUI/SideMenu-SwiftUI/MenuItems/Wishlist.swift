@@ -9,6 +9,7 @@ import SwiftUI
 
 struct Wishlist: View {
     var body: some View {
-        Color.getColor2().edgesIgnoringSafeArea(.all)
+        Color.getColor2()
+            .ignoresSafeArea(.all)
     }
 }

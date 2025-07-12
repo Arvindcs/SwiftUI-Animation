@@ -9,6 +9,7 @@ import SwiftUI
 
 struct Abouts: View {
     var body: some View {
-        Color.getColor3().edgesIgnoringSafeArea(.all)
+        Color.getColor3()
+            .ignoresSafeArea(.all)
     }
 }
