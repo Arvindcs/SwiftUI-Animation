@@ -1,7 +1,7 @@
 
 ### Hey there <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
 
-<a href="https://twitter.com/arvindptl">
+<a href="https://twitter.com/arvind_iosdev">
   <img align="left" alt="Arvind Patel | Twitter" width="22px" src="https://github.com/Arvindcs/SwiftUI-Animation/blob/master/Source/twitter.svg" />
 </a>
 
@@ -19,8 +19,9 @@
 <br/>
 <br/>
 
-Hi, I'm [Arvind Patel](https://arvindcs.github.io/), a iOS Developer 🚀 from India. Beside's programming, I enjoy eating food and Watching Movies. I'm a creative problem solving enthusiast, with a constantly growing love for languages.
+Hi, I'm [Arvind Patel](https://arvindcodes.in/), a iOS Developer 🚀 from India. Beside's programming, I enjoy eating food and Watching Movies. I'm a creative problem solving enthusiast, with a constantly growing love for languages.
 
+**Check out my website:** [arvindcodes.in](https://arvindcodes.in/) - Discover two free iOS apps and leave a review! 📱
 
 **Talking about Personal Stuffs:**
 
@@ -32,12 +33,13 @@ Hi, I'm [Arvind Patel](https://arvindcs.github.io/), a iOS Developer 🚀 from I
 
 #### If you like the project, don't forget to `put star 🌟`.
 
-</a>&nbsp;&nbsp;&nbsp;<a href="https://paypal.me/diwakarp8" target="_blank"><img src="https://img.shields.io/badge/Donate-informational?style=for-the-badge&logo=paypal&logoColor=white" ></a>
+## Libraries
 
-## AlertView And ActionSheet Library for SwiftUI
+### Floating TabBar Library for SwiftUI
 
-https://github.com/Arvindcs/APAlertView
+[APFloatingTabBar](https://github.com/Arvindcs/APFloatingTabBar) - A beautiful floating tab bar implementation for SwiftUI
 
+<img src="https://github.com/Arvindcs/APFloatingTabBar/blob/main/Examples/APFloatingTabBarExample/screenshot.png" width="475" height="400"/>
 
 ## Animations
 
@@ -92,6 +94,13 @@ https://github.com/Arvindcs/APAlertView
 #### Instagram Loading Spinner
 <img src="https://github.com/Arvindcs/SwiftUI-Animation/blob/master/InstagramLodingAnimation/InstagramLoadingAnimation.gif" width="475" height="400"/>
 
+---
+
+## Support
+
+If you find this project helpful, please consider supporting my work:
+
+<a href="https://paypal.me/diwakarp8" target="_blank"><img src="https://img.shields.io/badge/Donate-informational?style=for-the-badge&logo=paypal&logoColor=white" ></a>
 
 MIT License
 
